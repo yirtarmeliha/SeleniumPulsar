@@ -1,0 +1,71 @@
+2022-09-07 03:04:00,500 INFO  [Log] Cash 1 PASSED 
+2022-09-07 03:05:26,122 INFO  [Log] Cash 1 = PASSED 
+2022-09-07 03:11:26,005 ERROR [Log] Cash 1 = FAILED with cause : The keyboard screen did not open to enter the product's barcode. ==> expected: <block> but was: <none> 
+2022-09-07 03:18:04,834 INFO  [Log] Cash 1 = PASSED 
+2022-09-07 03:18:12,868 INFO  [Log] Cash 2 = PASSED 
+2022-09-07 03:25:49,656 ERROR [Log] Payments 1 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <1> but was: <2> 
+2022-09-07 03:25:56,832 ERROR [Log] Payments 2 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <1> but was: <3> 
+2022-09-07 03:26:01,306 ERROR [Log] Payments 3 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <1> but was: <4> 
+2022-09-07 03:26:05,372 ERROR [Log] Payments 4 = FAILED with cause : The yes/no screen to confirm age did not pop up.
+ ==> expected: <block> but was: <none> 
+2022-09-07 03:26:43,537 INFO  [Log] Payments 1 = PASSED 
+2022-09-07 03:26:51,546 INFO  [Log] Payments 2 = PASSED 
+2022-09-07 03:26:56,866 INFO  [Log] Payments 3 = PASSED 
+2022-09-07 03:27:04,994 INFO  [Log] Payments 4 = PASSED 
+2022-09-07 03:51:44,738 INFO  [Log] Payments 1 = PASSED 
+2022-09-07 03:51:52,746 INFO  [Log] Payments 2 = PASSED 
+2022-09-07 03:51:58,052 INFO  [Log] Payments 3 = PASSED 
+2022-09-07 03:52:06,110 INFO  [Log] Payments 4 = PASSED 
+2022-09-07 03:52:11,393 INFO  [Log] Payments 5 = PASSED 
+2022-09-07 03:52:18,230 INFO  [Log] Payments 6 = PASSED 
+2022-09-07 03:52:23,505 INFO  [Log] Payments 7 = PASSED 
+2022-09-07 03:56:45,760 INFO  [Log] Payments 1 [Cash] = PASSED 
+2022-09-07 03:56:53,791 INFO  [Log] Payments 2 [Cash 50] = PASSED 
+2022-09-07 03:56:59,093 INFO  [Log] Payments 3 [Cash 20] = PASSED 
+2022-09-07 03:57:07,298 INFO  [Log] Payments 4 [Cash 10] = PASSED 
+2022-09-07 03:57:12,577 INFO  [Log] Payments 5 [Cash 5] = PASSED 
+2022-09-07 03:57:19,403 INFO  [Log] Payments 6 [Cash 2] = PASSED 
+2022-09-07 03:57:24,680 INFO  [Log] Payments 7 [Cash 1] = PASSED 
+2022-09-07 04:03:47,576 INFO  [Log] Payments 1 = PASSED 
+2022-09-07 04:03:55,751 INFO  [Log] Payments 2 = PASSED 
+2022-09-07 04:04:01,135 INFO  [Log] Payments 3 = PASSED 
+2022-09-07 04:04:09,200 INFO  [Log] Payments 4 = PASSED 
+2022-09-07 04:04:14,544 INFO  [Log] Payments 5 = PASSED 
+2022-09-07 04:04:21,447 INFO  [Log] Payments 6 = PASSED 
+2022-09-07 04:04:26,820 INFO  [Log] Payments 7 = PASSED 
+2022-09-07 04:04:37,012 INFO  [Log] Payments 8 = PASSED 
+2022-09-07 04:08:07,409 INFO  [Log] Payments 1 = PASSED 
+2022-09-07 04:08:17,339 INFO  [Log] Payments 2 = PASSED 
+2022-09-07 04:08:24,440 INFO  [Log] Payments 3 = PASSED 
+2022-09-07 04:08:34,172 INFO  [Log] Payments 4 = PASSED 
+2022-09-07 04:08:41,262 INFO  [Log] Payments 5 = PASSED 
+2022-09-07 04:08:49,900 INFO  [Log] Payments 6 = PASSED 
+2022-09-07 04:08:57,016 INFO  [Log] Payments 7 = PASSED 
+2022-09-07 04:09:07,985 INFO  [Log] Payments 8 = PASSED 
+2022-09-07 04:11:34,440 INFO  [Log] Payments 1 = PASSED 
+2022-09-07 04:11:45,526 INFO  [Log] Payments 2 = PASSED 
+2022-09-07 04:11:53,711 INFO  [Log] Payments 3 = PASSED 
+2022-09-07 04:12:04,504 INFO  [Log] Payments 4 = PASSED 
+2022-09-07 04:12:12,613 INFO  [Log] Payments 5 = PASSED 
+2022-09-07 04:12:22,325 INFO  [Log] Payments 6 = PASSED 
+2022-09-07 04:12:27,612 ERROR [Log] Payments 7 = FAILED with cause : The total price in the basket does not match. ==> expected: <£0.1> but was: <£0.01> 
+2022-09-07 04:12:39,639 INFO  [Log] Payments 8 = PASSED 
+2022-09-07 04:53:03,923 INFO  [Log] HomePage Buttons = 'abcd' = PASSED 
+2022-09-07 04:53:11,644 INFO  [Log] HomePage Buttons = 'Bag' = PASSED 
+2022-09-07 04:53:22,685 INFO  [Log] HomePage Buttons = 'Nuts' = PASSED 
+2022-09-07 04:53:35,867 INFO  [Log] HomePage Buttons = 'Butchery' = PASSED 
+2022-09-07 04:53:47,873 INFO  [Log] HomePage Buttons = 'Butchery' = PASSED 
+2022-09-07 04:57:44,167 INFO  [Log] HomePage Buttons = 'abcd' = PASSED 
+2022-09-07 04:57:51,877 INFO  [Log] HomePage Buttons = 'Bag' = PASSED 
+2022-09-07 04:58:02,963 INFO  [Log] HomePage Buttons = 'Nuts' = PASSED 
+2022-09-07 04:58:16,144 INFO  [Log] HomePage Buttons = 'Butchery' = PASSED 
+2022-09-07 04:58:33,827 INFO  [Log] HomePage Buttons = 'Cigarette or Tobacco' = PASSED 
+2022-09-07 05:10:22,918 INFO  [Log] HomePage Buttons = 'abcd' = PASSED 
+2022-09-07 05:10:30,614 INFO  [Log] HomePage Buttons = 'Bag' = PASSED 
+2022-09-07 05:10:41,684 INFO  [Log] HomePage Buttons = 'Nuts' = PASSED 
+2022-09-07 05:10:54,829 INFO  [Log] HomePage Buttons = 'Butchery' = PASSED 
+2022-09-07 05:11:12,536 INFO  [Log] HomePage Buttons = 'Cigarette or Tobacco' = PASSED 
+2022-09-07 05:11:23,614 INFO  [Log] HomePage Buttons = 'Grocery' = PASSED 
+2022-09-07 05:11:33,183 INFO  [Log] HomePage Buttons = 'Grocery...' = PASSED 
+2022-09-07 05:11:42,665 INFO  [Log] HomePage Buttons = 'Soft Drink' = PASSED 
+2022-09-07 05:11:51,060 INFO  [Log] HomePage Buttons = 'House Hold' = PASSED 
