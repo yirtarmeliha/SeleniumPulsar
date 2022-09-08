@@ -3,6 +3,9 @@ package Scenarios;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.WebElement;
+
+import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -621,6 +624,165 @@ public class HomePageButtonsScenarios extends OpenPage {
                 }
 
         Elements.Cscreen().click();
+
+    }
+
+
+
+    @DisplayName("HomePage Buttons = 'Home Mode' ")
+    @Test
+    void Scenario10(){
+
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+        Elements.cashScreen().click();
+
+                try {
+                    Thread.sleep(700);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+        Elements.homeMode().click();
+
+                try {
+                    Thread.sleep(1500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+
+        Elements.sales().click();
+
+    }
+
+
+    @DisplayName("HomePage Buttons = 'Function' ")
+    @Test
+    void Scenario11(){
+
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+        Elements.cashScreen().click();
+
+                try {
+                    Thread.sleep(700);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+        Elements.functions().click();
+
+                try {
+                    Thread.sleep(1500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+        Elements.functions().click();
+
+    }
+
+
+
+
+    @DisplayName("HomePage Buttons = 'Sign On/Off' ")
+    @Test
+    void Scenario12(){
+
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+        Elements.cashScreen().click();
+
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+        Elements.singOnOff().click();
+        for (WebElement webElement : Arrays.asList(Elements.onePopUp(), Elements.enterPopUp())) {
+            webElement.click();
+        }
+    }
+
+
+
+
+    @DisplayName("HomePage Buttons = 'Enter Code' ")
+    @Test
+    void Scenario13(){
+
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+        Elements.cashScreen().click();
+
+                try {
+                    Thread.sleep(700);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+        Elements.enterCode().click();
+        assertEquals("block", Elements.modal().getCssValue("display"),"The keyboard screen did not open to enter the product's barcode.");
+
+                try {
+                    Thread.sleep(700);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+        Elements.ninePopUp().click();
+        Elements.eightPopUp().click();
+        assertEquals("98", Elements.keypadModalClass().getAttribute("value"),"The numbers entered on the keyboard screen that opens do not match.\n");
+
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+        Elements.enterPopUp().click();
+        assertEquals("none", Elements.modal().getCssValue("display"),"The keyboard screen that opens to enter the product's barcode is not closed.");
+
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+        assertEquals("1", Elements.basketItemCountTD().getAttribute("innerHTML"),"The number of items entered in the basket does not match.");
+        assertEquals("£0.00", Elements.basketDiscountTD().getAttribute("innerHTML"),"The discount price in the basket does not match.");
+        assertEquals("£2.00", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
+
+        Elements.cash10Screen().click();
+
+                try {
+                    Thread.sleep(1500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+        Elements.Cscreen().click();
+
+
+
+
 
     }
 

@@ -124,6 +124,12 @@ public class Elements {
     public static WebElement management(){
         return driver.findElement(new By.ByCssSelector(".mgnButton[data-ng-click=\"playKeySound(); gotoState('management')\"]"));
     }
+
+    public static WebElement sales(){
+        return driver.findElement(new By.ByCssSelector(".mgnButton[data-ng-click=\"playKeySound(); gotoHome()\"]"));
+    }
+
+
     public static WebElement product(){
         return driver.findElement(new By.ByCssSelector(".mgnButton[data-ng-click=\"playKeySound(); gotoState('management.product')\"]"));
     }

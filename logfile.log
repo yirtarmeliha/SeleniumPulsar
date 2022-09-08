@@ -69,3 +69,138 @@
 2022-09-07 05:11:33,183 INFO  [Log] HomePage Buttons = 'Grocery...' = PASSED 
 2022-09-07 05:11:42,665 INFO  [Log] HomePage Buttons = 'Soft Drink' = PASSED 
 2022-09-07 05:11:51,060 INFO  [Log] HomePage Buttons = 'House Hold' = PASSED 
+2022-09-08 00:36:48,002 INFO  [Log] HomePage Buttons = 'abcd' = PASSED 
+2022-09-08 00:36:55,768 INFO  [Log] HomePage Buttons = 'Bag' = PASSED 
+2022-09-08 00:37:06,853 INFO  [Log] HomePage Buttons = 'Nuts' = PASSED 
+2022-09-08 00:37:20,055 INFO  [Log] HomePage Buttons = 'Butchery' = PASSED 
+2022-09-08 00:37:37,827 INFO  [Log] HomePage Buttons = 'Cigarette or Tobacco' = PASSED 
+2022-09-08 00:37:48,968 INFO  [Log] HomePage Buttons = 'Grocery' = PASSED 
+2022-09-08 00:37:58,504 INFO  [Log] HomePage Buttons = 'Grocery...' = PASSED 
+2022-09-08 00:38:08,014 INFO  [Log] HomePage Buttons = 'Soft Drink' = PASSED 
+2022-09-08 00:38:16,408 INFO  [Log] HomePage Buttons = 'House Hold' = PASSED 
+2022-09-08 01:05:11,931 INFO  [Log] HomePage Buttons = 'abcd' = PASSED 
+2022-09-08 01:05:20,108 INFO  [Log] HomePage Buttons = 'Bag' = PASSED 
+2022-09-08 01:05:31,764 INFO  [Log] HomePage Buttons = 'Nuts' = PASSED 
+2022-09-08 01:05:45,666 INFO  [Log] HomePage Buttons = 'Butchery' = PASSED 
+2022-09-08 01:06:04,443 INFO  [Log] HomePage Buttons = 'Cigarette or Tobacco' = PASSED 
+2022-09-08 01:06:16,084 INFO  [Log] HomePage Buttons = 'Grocery' = PASSED 
+2022-09-08 01:06:25,916 INFO  [Log] HomePage Buttons = 'Grocery...' = PASSED 
+2022-09-08 01:06:35,683 INFO  [Log] HomePage Buttons = 'Soft Drink' = PASSED 
+2022-09-08 01:06:44,299 INFO  [Log] HomePage Buttons = 'House Hold' = PASSED 
+2022-09-08 01:06:47,931 INFO  [Log] HomePage Buttons = 'Home Mode' = PASSED 
+2022-09-08 01:06:51,522 INFO  [Log] HomePage Buttons = 'Function' = PASSED 
+2022-09-08 01:06:54,911 ERROR [Log] HomePage Buttons = 'Sign On/Off' = FAILED with cause : The keyboard screen did not open to enter the officer's passcode. ==> expected: <block> but was: <none> 
+2022-09-08 01:07:02,348 INFO  [Log] HomePage Buttons = 'Enter Code' = PASSED 
+2022-09-08 01:10:42,667 INFO  [Log] HomePage Buttons = 'abcd' = PASSED 
+2022-09-08 01:10:50,844 INFO  [Log] HomePage Buttons = 'Bag' = PASSED 
+2022-09-08 01:11:02,653 INFO  [Log] HomePage Buttons = 'Nuts' = PASSED 
+2022-09-08 01:11:16,595 INFO  [Log] HomePage Buttons = 'Butchery' = PASSED 
+2022-09-08 01:11:35,802 INFO  [Log] HomePage Buttons = 'Cigarette or Tobacco' = PASSED 
+2022-09-08 01:11:47,662 INFO  [Log] HomePage Buttons = 'Grocery' = PASSED 
+2022-09-08 01:11:57,477 INFO  [Log] HomePage Buttons = 'Grocery...' = PASSED 
+2022-09-08 01:12:07,347 INFO  [Log] HomePage Buttons = 'Soft Drink' = PASSED 
+2022-09-08 01:12:15,907 INFO  [Log] HomePage Buttons = 'House Hold' = PASSED 
+2022-09-08 01:12:19,541 INFO  [Log] HomePage Buttons = 'Home Mode' = PASSED 
+2022-09-08 01:12:23,198 INFO  [Log] HomePage Buttons = 'Function' = PASSED 
+2022-09-08 01:12:26,039 ERROR [Log] HomePage Buttons = 'Sign On/Off' = FAILED with cause : The keyboard screen did not open to enter the officer's passcode. ==> expected: <block> but was: <none> 
+2022-09-08 01:12:33,215 INFO  [Log] HomePage Buttons = 'Enter Code' = PASSED 
+2022-09-08 01:13:44,825 INFO  [Log] HomePage Buttons = 'abcd' = PASSED 
+2022-09-08 01:13:53,012 INFO  [Log] HomePage Buttons = 'Bag' = PASSED 
+2022-09-08 01:14:04,842 INFO  [Log] HomePage Buttons = 'Nuts' = PASSED 
+2022-09-08 01:14:18,755 INFO  [Log] HomePage Buttons = 'Butchery' = PASSED 
+2022-09-08 01:14:37,732 INFO  [Log] HomePage Buttons = 'Cigarette or Tobacco' = PASSED 
+2022-09-08 01:14:49,423 INFO  [Log] HomePage Buttons = 'Grocery' = PASSED 
+2022-09-08 01:15:41,017 ERROR [Log] HomePage Buttons = 'Grocery...' = FAILED with cause : The yes/no screen to start card transaction did not close. ==> expected: <none> but was: <block> 
+2022-09-08 01:15:43,827 ERROR [Log] HomePage Buttons = 'Soft Drink' = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 595). Other element would receive the click: <div class="modal in" id="pinpadSelected" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MelihaY-MacBook-Air.local', ip: 'fe80:0:0:0:876:855c:4445:ead9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b77925d8b83ad6c06a907ced74d9525, clickElement {id=46e8b4b9-25e4-49f3-bbaa-959bac120d6d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50729}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50729/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (1b77925d8b83ad6c06a907ced74d9525)] -> id: btnCash]
+Session ID: 1b77925d8b83ad6c06a907ced74d9525 
+2022-09-08 01:15:46,084 ERROR [Log] HomePage Buttons = 'House Hold' = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 595). Other element would receive the click: <div class="modal in" id="pinpadSelected" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MelihaY-MacBook-Air.local', ip: 'fe80:0:0:0:876:855c:4445:ead9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b77925d8b83ad6c06a907ced74d9525, clickElement {id=46e8b4b9-25e4-49f3-bbaa-959bac120d6d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50729}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50729/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (1b77925d8b83ad6c06a907ced74d9525)] -> id: btnCash]
+Session ID: 1b77925d8b83ad6c06a907ced74d9525 
+2022-09-08 01:15:48,242 ERROR [Log] HomePage Buttons = 'Home Mode' = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 595). Other element would receive the click: <div class="modal in" id="pinpadSelected" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MelihaY-MacBook-Air.local', ip: 'fe80:0:0:0:876:855c:4445:ead9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b77925d8b83ad6c06a907ced74d9525, clickElement {id=46e8b4b9-25e4-49f3-bbaa-959bac120d6d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50729}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50729/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (1b77925d8b83ad6c06a907ced74d9525)] -> id: btnCash]
+Session ID: 1b77925d8b83ad6c06a907ced74d9525 
+2022-09-08 01:15:50,392 ERROR [Log] HomePage Buttons = 'Function' = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 595). Other element would receive the click: <div class="modal in" id="pinpadSelected" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MelihaY-MacBook-Air.local', ip: 'fe80:0:0:0:876:855c:4445:ead9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b77925d8b83ad6c06a907ced74d9525, clickElement {id=46e8b4b9-25e4-49f3-bbaa-959bac120d6d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50729}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50729/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (1b77925d8b83ad6c06a907ced74d9525)] -> id: btnCash]
+Session ID: 1b77925d8b83ad6c06a907ced74d9525 
+2022-09-08 01:15:52,544 ERROR [Log] HomePage Buttons = 'Sign On/Off' = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 595). Other element would receive the click: <div class="modal in" id="pinpadSelected" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MelihaY-MacBook-Air.local', ip: 'fe80:0:0:0:876:855c:4445:ead9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b77925d8b83ad6c06a907ced74d9525, clickElement {id=46e8b4b9-25e4-49f3-bbaa-959bac120d6d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50729}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50729/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (1b77925d8b83ad6c06a907ced74d9525)] -> id: btnCash]
+Session ID: 1b77925d8b83ad6c06a907ced74d9525 
+2022-09-08 01:15:54,621 ERROR [Log] HomePage Buttons = 'Enter Code' = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 595). Other element would receive the click: <div class="modal in" id="pinpadSelected" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MelihaY-MacBook-Air.local', ip: 'fe80:0:0:0:876:855c:4445:ead9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b77925d8b83ad6c06a907ced74d9525, clickElement {id=46e8b4b9-25e4-49f3-bbaa-959bac120d6d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50729}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50729/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (1b77925d8b83ad6c06a907ced74d9525)] -> id: btnCash]
+Session ID: 1b77925d8b83ad6c06a907ced74d9525 
+2022-09-08 01:16:47,008 INFO  [Log] HomePage Buttons = 'abcd' = PASSED 
+2022-09-08 01:16:54,726 INFO  [Log] HomePage Buttons = 'Bag' = PASSED 
+2022-09-08 01:17:05,752 INFO  [Log] HomePage Buttons = 'Nuts' = PASSED 
+2022-09-08 01:17:18,935 INFO  [Log] HomePage Buttons = 'Butchery' = PASSED 
+2022-09-08 01:17:36,740 INFO  [Log] HomePage Buttons = 'Cigarette or Tobacco' = PASSED 
+2022-09-08 01:17:47,817 INFO  [Log] HomePage Buttons = 'Grocery' = PASSED 
+2022-09-08 01:17:57,368 INFO  [Log] HomePage Buttons = 'Grocery...' = PASSED 
+2022-09-08 01:18:06,856 INFO  [Log] HomePage Buttons = 'Soft Drink' = PASSED 
+2022-09-08 01:18:15,243 INFO  [Log] HomePage Buttons = 'House Hold' = PASSED 
+2022-09-08 01:18:18,777 INFO  [Log] HomePage Buttons = 'Home Mode' = PASSED 
+2022-09-08 01:18:22,174 INFO  [Log] HomePage Buttons = 'Function' = PASSED 
+2022-09-08 01:18:26,781 ERROR [Log] HomePage Buttons = 'Sign On/Off' = FAILED with cause : The keyboard screen did not open to enter the officer's passcode. ==> expected: <block> but was: <none> 
+2022-09-08 01:18:33,350 INFO  [Log] HomePage Buttons = 'Enter Code' = PASSED 
+2022-09-08 01:23:44,346 INFO  [Log] HomePage Buttons = 'abcd' = PASSED 
+2022-09-08 01:23:52,075 INFO  [Log] HomePage Buttons = 'Bag' = PASSED 
+2022-09-08 01:24:03,109 INFO  [Log] HomePage Buttons = 'Nuts' = PASSED 
+2022-09-08 01:24:16,333 INFO  [Log] HomePage Buttons = 'Butchery' = PASSED 
+2022-09-08 01:24:34,120 INFO  [Log] HomePage Buttons = 'Cigarette or Tobacco' = PASSED 
+2022-09-08 01:24:45,264 INFO  [Log] HomePage Buttons = 'Grocery' = PASSED 
+2022-09-08 01:24:54,888 INFO  [Log] HomePage Buttons = 'Grocery...' = PASSED 
+2022-09-08 01:25:04,413 INFO  [Log] HomePage Buttons = 'Soft Drink' = PASSED 
+2022-09-08 01:25:12,796 INFO  [Log] HomePage Buttons = 'House Hold' = PASSED 
+2022-09-08 01:25:16,258 INFO  [Log] HomePage Buttons = 'Home Mode' = PASSED 
+2022-09-08 01:25:19,674 INFO  [Log] HomePage Buttons = 'Function' = PASSED 
+2022-09-08 01:25:26,785 ERROR [Log] HomePage Buttons = 'Sign On/Off' = FAILED with cause : The keyboard screen did not open to enter the officer's passcode. ==> expected: <block> but was: <none> 
+2022-09-08 01:25:33,340 INFO  [Log] HomePage Buttons = 'Enter Code' = PASSED 
+2022-09-08 01:27:12,963 INFO  [Log] HomePage Buttons = 'abcd' = PASSED 
+2022-09-08 01:27:20,678 INFO  [Log] HomePage Buttons = 'Bag' = PASSED 
+2022-09-08 01:27:31,666 INFO  [Log] HomePage Buttons = 'Nuts' = PASSED 
+2022-09-08 01:27:44,889 INFO  [Log] HomePage Buttons = 'Butchery' = PASSED 
+2022-09-08 01:28:02,620 INFO  [Log] HomePage Buttons = 'Cigarette or Tobacco' = PASSED 
+2022-09-08 01:28:13,663 INFO  [Log] HomePage Buttons = 'Grocery' = PASSED 
+2022-09-08 01:28:23,182 INFO  [Log] HomePage Buttons = 'Grocery...' = PASSED 
+2022-09-08 01:28:32,706 INFO  [Log] HomePage Buttons = 'Soft Drink' = PASSED 
+2022-09-08 01:28:41,076 INFO  [Log] HomePage Buttons = 'House Hold' = PASSED 
+2022-09-08 01:28:44,578 INFO  [Log] HomePage Buttons = 'Home Mode' = PASSED 
+2022-09-08 01:28:47,992 INFO  [Log] HomePage Buttons = 'Function' = PASSED 
+2022-09-08 01:28:51,341 INFO  [Log] HomePage Buttons = 'Sign On/Off' = PASSED 
+2022-09-08 01:28:57,881 INFO  [Log] HomePage Buttons = 'Enter Code' = PASSED 
