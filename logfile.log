@@ -225,3 +225,45 @@ Session ID: 1b77925d8b83ad6c06a907ced74d9525
 2022-09-10 12:05:32,194 INFO  [Log] HomePage Buttons = 'Function' = PASSED 
 2022-09-10 12:05:35,535 INFO  [Log] HomePage Buttons = 'Sign On/Off' = PASSED 
 2022-09-10 12:05:42,134 INFO  [Log] HomePage Buttons = 'Enter Code' = PASSED 
+2022-09-12 20:27:24,742 INFO  [Log] HomePage Buttons = 'abcd' = PASSED 
+2022-09-12 20:27:32,487 INFO  [Log] HomePage Buttons = 'Bag' = PASSED 
+2022-09-12 20:27:43,534 INFO  [Log] HomePage Buttons = 'Nuts' = PASSED 
+2022-09-12 20:27:56,785 INFO  [Log] HomePage Buttons = 'Butchery' = PASSED 
+2022-09-12 20:28:14,562 INFO  [Log] HomePage Buttons = 'Cigarette or Tobacco' = PASSED 
+2022-09-12 20:28:25,789 INFO  [Log] HomePage Buttons = 'Grocery' = PASSED 
+2022-09-12 20:28:35,356 INFO  [Log] HomePage Buttons = 'Grocery...' = PASSED 
+2022-09-12 20:28:44,962 INFO  [Log] HomePage Buttons = 'Soft Drink' = PASSED 
+2022-09-12 20:28:53,365 INFO  [Log] HomePage Buttons = 'House Hold' = PASSED 
+2022-09-12 20:28:56,847 INFO  [Log] HomePage Buttons = 'Home Mode' = PASSED 
+2022-09-12 20:29:00,324 INFO  [Log] HomePage Buttons = 'Function' = PASSED 
+2022-09-12 20:29:03,688 INFO  [Log] HomePage Buttons = 'Sign On/Off' = PASSED 
+2022-09-12 20:29:10,267 INFO  [Log] HomePage Buttons = 'Enter Code' = PASSED 
+2022-09-12 20:29:49,609 INFO  [Log] Payments 1 = PASSED 
+2022-09-12 20:30:00,542 INFO  [Log] Payments 2 = PASSED 
+2022-09-12 20:30:08,662 INFO  [Log] Payments 3 = PASSED 
+2022-09-12 20:30:19,646 INFO  [Log] Payments 4 = PASSED 
+2022-09-12 20:30:27,752 INFO  [Log] Payments 5 = PASSED 
+2022-09-12 20:30:37,467 INFO  [Log] Payments 6 = PASSED 
+2022-09-12 20:30:45,604 INFO  [Log] Payments 7 = PASSED 
+2022-09-12 20:30:57,540 INFO  [Log] Payments 8 = PASSED 
+2022-09-13 02:03:14,862 INFO  [Log] Payments 1 = PASSED 
+2022-09-13 02:03:26,154 INFO  [Log] Payments 2 = PASSED 
+2022-09-13 02:03:34,304 INFO  [Log] Payments 3 = PASSED 
+2022-09-13 02:03:45,209 INFO  [Log] Payments 4 = PASSED 
+2022-09-13 02:03:53,352 INFO  [Log] Payments 5 = PASSED 
+2022-09-13 02:04:03,062 INFO  [Log] Payments 6 = PASSED 
+2022-09-13 02:04:11,221 INFO  [Log] Payments 7 = PASSED 
+2022-09-13 02:04:23,293 INFO  [Log] Payments 8 = PASSED 
+2022-09-13 02:04:52,733 INFO  [Log] HomePage Buttons = 'abcd' = PASSED 
+2022-09-13 02:05:00,442 INFO  [Log] HomePage Buttons = 'Bag' = PASSED 
+2022-09-13 02:05:11,517 INFO  [Log] HomePage Buttons = 'Nuts' = PASSED 
+2022-09-13 02:05:24,805 INFO  [Log] HomePage Buttons = 'Butchery' = PASSED 
+2022-09-13 02:05:42,687 INFO  [Log] HomePage Buttons = 'Cigarette or Tobacco' = PASSED 
+2022-09-13 02:05:53,926 INFO  [Log] HomePage Buttons = 'Grocery' = PASSED 
+2022-09-13 02:06:03,722 INFO  [Log] HomePage Buttons = 'Grocery...' = PASSED 
+2022-09-13 02:06:13,456 INFO  [Log] HomePage Buttons = 'Soft Drink' = PASSED 
+2022-09-13 02:06:21,897 INFO  [Log] HomePage Buttons = 'House Hold' = PASSED 
+2022-09-13 02:06:25,524 INFO  [Log] HomePage Buttons = 'Home Mode' = PASSED 
+2022-09-13 02:06:29,023 INFO  [Log] HomePage Buttons = 'Function' = PASSED 
+2022-09-13 02:06:32,344 INFO  [Log] HomePage Buttons = 'Sign On/Off' = PASSED 
+2022-09-13 02:06:39,059 INFO  [Log] HomePage Buttons = 'Enter Code' = PASSED 
