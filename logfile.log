@@ -267,3 +267,508 @@ Session ID: 1b77925d8b83ad6c06a907ced74d9525
 2022-09-13 02:06:29,023 INFO  [Log] HomePage Buttons = 'Function' = PASSED 
 2022-09-13 02:06:32,344 INFO  [Log] HomePage Buttons = 'Sign On/Off' = PASSED 
 2022-09-13 02:06:39,059 INFO  [Log] HomePage Buttons = 'Enter Code' = PASSED 
+2022-10-12 20:53:08,741 ERROR [Log] HomePage Buttons = 'abcd' = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <1> but was: <0> 
+2022-10-12 20:53:13,632 ERROR [Log] HomePage Buttons = 'Bag' = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <1> but was: <0> 
+2022-10-12 20:53:19,445 ERROR [Log] HomePage Buttons = 'Nuts' = FAILED with cause : The keyboard screen did not open to enter the weight of the product. ==> expected: <block> but was: <none> 
+2022-10-12 20:53:25,246 ERROR [Log] HomePage Buttons = 'Butchery' = FAILED with cause : The keyboard screen did not open to enter the price of the product. ==> expected: <block> but was: <none> 
+2022-10-12 20:53:43,406 INFO  [Log] HomePage Buttons = 'Cigarette or Tobacco' = PASSED 
+2022-10-12 20:53:54,537 INFO  [Log] HomePage Buttons = 'Grocery' = PASSED 
+2022-10-12 20:54:00,044 ERROR [Log] HomePage Buttons = 'Grocery...' = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <1> but was: <0> 
+2022-10-12 20:54:05,551 ERROR [Log] HomePage Buttons = 'Soft Drink' = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <1> but was: <0> 
+2022-10-12 20:54:11,068 ERROR [Log] HomePage Buttons = 'House Hold' = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <1> but was: <0> 
+2022-10-12 20:54:14,558 INFO  [Log] HomePage Buttons = 'Home Mode' = PASSED 
+2022-10-12 20:54:17,978 INFO  [Log] HomePage Buttons = 'Function' = PASSED 
+2022-10-12 20:54:21,322 INFO  [Log] HomePage Buttons = 'Sign On/Off' = PASSED 
+2022-10-12 20:54:26,358 ERROR [Log] HomePage Buttons = 'Enter Code' = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <1> but was: <0> 
+2022-10-12 20:55:30,730 ERROR [Log] Payments 1 = FAILED with cause : expected: <block> but was: <none> 
+2022-10-12 20:55:36,294 ERROR [Log] Payments 2 = FAILED with cause : The keyboard screen did not open to enter the price of the product.
+ ==> expected: <block> but was: <none> 
+2022-10-12 20:55:41,524 ERROR [Log] Payments 3 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <1> but was: <0> 
+2022-10-12 20:55:46,347 ERROR [Log] Payments 4 = FAILED with cause : The yes/no screen to confirm age did not pop up.
+ ==> expected: <block> but was: <none> 
+2022-10-12 20:55:48,146 ERROR [Log] Payments 5 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 590). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:10ea:b9e5:38fb:ef42%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6276886f5b0278689959163e464f4de9, clickElement {id=7479d7fd-9fc9-4ad2-9b62-ca10781bf53c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49444/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (6276886f5b0278689959163e464f4de9)] -> id: btnCash]
+Session ID: 6276886f5b0278689959163e464f4de9 
+2022-10-12 20:55:49,905 ERROR [Log] Payments 6 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 590). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:10ea:b9e5:38fb:ef42%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6276886f5b0278689959163e464f4de9, clickElement {id=7479d7fd-9fc9-4ad2-9b62-ca10781bf53c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49444/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (6276886f5b0278689959163e464f4de9)] -> id: btnCash]
+Session ID: 6276886f5b0278689959163e464f4de9 
+2022-10-12 20:55:51,690 ERROR [Log] Payments 7 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 590). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:10ea:b9e5:38fb:ef42%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6276886f5b0278689959163e464f4de9, clickElement {id=7479d7fd-9fc9-4ad2-9b62-ca10781bf53c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49444/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (6276886f5b0278689959163e464f4de9)] -> id: btnCash]
+Session ID: 6276886f5b0278689959163e464f4de9 
+2022-10-12 20:55:53,742 ERROR [Log] Payments 8 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 590). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:10ea:b9e5:38fb:ef42%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6276886f5b0278689959163e464f4de9, clickElement {id=7479d7fd-9fc9-4ad2-9b62-ca10781bf53c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49444/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (6276886f5b0278689959163e464f4de9)] -> id: btnCash]
+Session ID: 6276886f5b0278689959163e464f4de9 
+2022-10-12 21:07:02,859 ERROR [Log] Scenario 1 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:10ea:b9e5:38fb:ef42%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [040c54951af1c69736953570cdd90692, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49481/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 040c54951af1c69736953570cdd90692 
+2022-10-12 21:08:01,896 ERROR [Log] Scenario 1 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:10ea:b9e5:38fb:ef42%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db97dc8bbf08f32048a5a96c8b2f4ae8, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49506/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: db97dc8bbf08f32048a5a96c8b2f4ae8 
+2022-10-14 21:17:09,329 ERROR [Log] Scenario 1 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:10ea:b9e5:38fb:ef42%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a2e5dc89a370dc8ddad3fbaf1157e005, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:51805}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51805/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2e5dc89a370dc8ddad3fbaf1157e005 
+2022-10-14 21:19:28,819 ERROR [Log] Scenario 1 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:10ea:b9e5:38fb:ef42%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28426ca82ebcf975540ca4dd007d40a1, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:51836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51836/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28426ca82ebcf975540ca4dd007d40a1 
+2022-10-14 21:23:38,717 ERROR [Log] Scenario 1 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:10ea:b9e5:38fb:ef42%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f08956b5969121c6651d11482d1328c, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:52072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52072/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f08956b5969121c6651d11482d1328c 
+2022-10-14 21:25:03,254 ERROR [Log] Scenario 1 = FAILED with cause : The total price in the basket does not match. ==> expected: <£1.60> but was: <£0.88> 
+2022-10-14 21:55:19,054 ERROR [Log] Scenario 1 = FAILED with cause : The total price in the basket does not match. ==> expected: <£1.60> but was: <£0.88> 
+2022-10-14 21:57:09,328 ERROR [Log] Scenario 1 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:cbf:b0ca:c9f8:530a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0aca3a4d3a7c7b25fc96e8c24e727f9e, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49374/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0aca3a4d3a7c7b25fc96e8c24e727f9e 
+2022-10-14 21:59:27,663 ERROR [Log] Scenario 1 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <3> but was: <2> 
+2022-10-14 22:01:52,943 INFO  [Log] Scenario 1 = PASSED 
+2022-10-14 22:46:21,086 ERROR [Log] Scenario 2 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:cbf:b0ca:c9f8:530a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [911a89b118aae8905396813868044bba, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49212/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 911a89b118aae8905396813868044bba 
+2022-10-14 22:47:28,429 ERROR [Log] Scenario 2 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".data[data-index="0"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:cbf:b0ca:c9f8:530a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70171b66aa07c22877f8ff1d092b0814, findElement {using=css selector, value=.data[data-index="0"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49242}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49242/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70171b66aa07c22877f8ff1d092b0814 
+2022-10-14 22:51:56,229 ERROR [Log] Scenario 2 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".data[data-index="0"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:cbf:b0ca:c9f8:530a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0998d7003b08fae0e1e432411c8640e2, findElement {using=css selector, value=.data[data-index="0"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49291}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49291/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0998d7003b08fae0e1e432411c8640e2 
+2022-10-14 22:55:35,826 ERROR [Log] Scenario 2 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".data[data-index="0"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:cbf:b0ca:c9f8:530a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e40b46630bacc435d768307d079da309, findElement {using=css selector, value=.data[data-index="0"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49336}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49336/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e40b46630bacc435d768307d079da309 
+2022-10-14 22:58:27,523 ERROR [Log] Scenario 2 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".btn[data-ui-sref="management.mixmatch"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:cbf:b0ca:c9f8:530a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a55fe936e6c30cd95d9c0a1a454f8e24, findElement {using=css selector, value=.btn[data-ui-sref="management.mixmatch"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49405/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a55fe936e6c30cd95d9c0a1a454f8e24 
+2022-10-14 23:00:01,103 ERROR [Log] Scenario 2 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".btn[data-ui-sref="management.mixmatch"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:cbf:b0ca:c9f8:530a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc4b6660fd52306a84fc304b10857bbe, findElement {using=css selector, value=.btn[data-ui-sref="management.mixmatch"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49440/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc4b6660fd52306a84fc304b10857bbe 
+2022-10-14 23:02:42,399 ERROR [Log] Scenario 2 = FAILED with cause : The discount price in the basket does not match. ==> expected: <£5.00> but was: <£1.50> 
+2022-10-14 23:10:09,119 ERROR [Log] Scenario 2 = FAILED with cause : The discount price in the basket does not match. ==> expected: <£10.00> but was: <£3.00> 
+2022-10-14 23:12:28,357 ERROR [Log] Scenario 2 = FAILED with cause : The discount price in the basket does not match. ==> expected: <£10.00> but was: <£3.00> 
+2022-10-14 23:19:39,375 ERROR [Log] Scenario 2 = FAILED with cause : The discount price in the basket does not match. ==> expected: <£10.00> but was: <£3.00> 
+2022-10-18 16:34:46,042 ERROR [Log] Scenario 2 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:cbf:b0ca:c9f8:530a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d34eefc415b6b881b556493b9c2e8e06, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:53144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53144/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d34eefc415b6b881b556493b9c2e8e06 
+2022-10-26 21:13:55,881 ERROR [Log] Payments 1 = FAILED with cause : expected: <block> but was: <none> 
+2022-10-26 21:14:01,460 ERROR [Log] Payments 2 = FAILED with cause : The keyboard screen did not open to enter the price of the product.
+ ==> expected: <block> but was: <none> 
+2022-10-26 21:14:06,699 ERROR [Log] Payments 3 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <1> but was: <0> 
+2022-10-26 21:14:11,559 ERROR [Log] Payments 4 = FAILED with cause : The yes/no screen to confirm age did not pop up.
+ ==> expected: <block> but was: <none> 
+2022-10-26 21:14:13,394 ERROR [Log] Payments 5 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce639bb7f186b5a0b06f91cdeb6840af, clickElement {id=40538baf-8c97-408d-bcad-77a12c18acf8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49728/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (ce639bb7f186b5a0b06f91cdeb6840af)] -> id: btnCash]
+Session ID: ce639bb7f186b5a0b06f91cdeb6840af 
+2022-10-26 21:14:15,189 ERROR [Log] Payments 6 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce639bb7f186b5a0b06f91cdeb6840af, clickElement {id=40538baf-8c97-408d-bcad-77a12c18acf8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49728/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (ce639bb7f186b5a0b06f91cdeb6840af)] -> id: btnCash]
+Session ID: ce639bb7f186b5a0b06f91cdeb6840af 
+2022-10-26 21:14:16,943 ERROR [Log] Payments 7 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce639bb7f186b5a0b06f91cdeb6840af, clickElement {id=40538baf-8c97-408d-bcad-77a12c18acf8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49728/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (ce639bb7f186b5a0b06f91cdeb6840af)] -> id: btnCash]
+Session ID: ce639bb7f186b5a0b06f91cdeb6840af 
+2022-10-26 21:14:19,083 ERROR [Log] Payments 8 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce639bb7f186b5a0b06f91cdeb6840af, clickElement {id=40538baf-8c97-408d-bcad-77a12c18acf8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49728/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (ce639bb7f186b5a0b06f91cdeb6840af)] -> id: btnCash]
+Session ID: ce639bb7f186b5a0b06f91cdeb6840af 
+2022-10-26 21:15:29,814 ERROR [Log] Payments 1 = FAILED with cause : expected: <block> but was: <none> 
+2022-10-26 21:15:31,949 ERROR [Log] Payments 2 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4003899404165e63d01d4b66852a2274, clickElement {id=df5b6375-3abb-45ea-a9c5-b18b78f71131}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49753/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (4003899404165e63d01d4b66852a2274)] -> id: btnCash]
+Session ID: 4003899404165e63d01d4b66852a2274 
+2022-10-26 21:15:33,735 ERROR [Log] Payments 3 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4003899404165e63d01d4b66852a2274, clickElement {id=df5b6375-3abb-45ea-a9c5-b18b78f71131}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49753/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (4003899404165e63d01d4b66852a2274)] -> id: btnCash]
+Session ID: 4003899404165e63d01d4b66852a2274 
+2022-10-26 21:15:35,796 ERROR [Log] Payments 4 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4003899404165e63d01d4b66852a2274, clickElement {id=df5b6375-3abb-45ea-a9c5-b18b78f71131}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49753/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (4003899404165e63d01d4b66852a2274)] -> id: btnCash]
+Session ID: 4003899404165e63d01d4b66852a2274 
+2022-10-26 21:15:37,561 ERROR [Log] Payments 5 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4003899404165e63d01d4b66852a2274, clickElement {id=df5b6375-3abb-45ea-a9c5-b18b78f71131}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49753/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (4003899404165e63d01d4b66852a2274)] -> id: btnCash]
+Session ID: 4003899404165e63d01d4b66852a2274 
+2022-10-26 21:15:39,339 ERROR [Log] Payments 6 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4003899404165e63d01d4b66852a2274, clickElement {id=df5b6375-3abb-45ea-a9c5-b18b78f71131}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49753/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (4003899404165e63d01d4b66852a2274)] -> id: btnCash]
+Session ID: 4003899404165e63d01d4b66852a2274 
+2022-10-26 21:15:41,106 ERROR [Log] Payments 7 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4003899404165e63d01d4b66852a2274, clickElement {id=df5b6375-3abb-45ea-a9c5-b18b78f71131}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49753/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (4003899404165e63d01d4b66852a2274)] -> id: btnCash]
+Session ID: 4003899404165e63d01d4b66852a2274 
+2022-10-26 21:15:43,169 ERROR [Log] Payments 8 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4003899404165e63d01d4b66852a2274, clickElement {id=df5b6375-3abb-45ea-a9c5-b18b78f71131}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49753/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (4003899404165e63d01d4b66852a2274)] -> id: btnCash]
+Session ID: 4003899404165e63d01d4b66852a2274 
+2022-10-26 21:16:54,234 ERROR [Log] Payments 1 = FAILED with cause : element not interactable
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4da92db9a8ada3494ce702f707f34410, clickElement {id=67f97cc0-3bfb-4219-ab2b-70ae440da85f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49780}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49780/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (4da92db9a8ada3494ce702f707f34410)] -> css selector: .flexItem[data-ng-click="playKeySound(); addCodeValue('8');"]]
+Session ID: 4da92db9a8ada3494ce702f707f34410 
+2022-10-26 21:16:59,826 ERROR [Log] Payments 2 = FAILED with cause : The keyboard screen did not open to enter the price of the product.
+ ==> expected: <block> but was: <none> 
+2022-10-26 21:17:05,042 ERROR [Log] Payments 3 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <1> but was: <0> 
+2022-10-26 21:17:09,884 ERROR [Log] Payments 4 = FAILED with cause : The yes/no screen to confirm age did not pop up.
+ ==> expected: <block> but was: <none> 
+2022-10-26 21:17:11,700 ERROR [Log] Payments 5 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4da92db9a8ada3494ce702f707f34410, clickElement {id=b027f86c-8212-4f17-acbb-d8fd9c7773b3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49780}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49780/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (4da92db9a8ada3494ce702f707f34410)] -> id: btnCash]
+Session ID: 4da92db9a8ada3494ce702f707f34410 
+2022-10-26 21:17:13,498 ERROR [Log] Payments 6 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4da92db9a8ada3494ce702f707f34410, clickElement {id=b027f86c-8212-4f17-acbb-d8fd9c7773b3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49780}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49780/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (4da92db9a8ada3494ce702f707f34410)] -> id: btnCash]
+Session ID: 4da92db9a8ada3494ce702f707f34410 
+2022-10-26 21:17:15,272 ERROR [Log] Payments 7 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4da92db9a8ada3494ce702f707f34410, clickElement {id=b027f86c-8212-4f17-acbb-d8fd9c7773b3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49780}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49780/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (4da92db9a8ada3494ce702f707f34410)] -> id: btnCash]
+Session ID: 4da92db9a8ada3494ce702f707f34410 
+2022-10-26 21:17:17,345 ERROR [Log] Payments 8 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4da92db9a8ada3494ce702f707f34410, clickElement {id=b027f86c-8212-4f17-acbb-d8fd9c7773b3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49780}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49780/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (4da92db9a8ada3494ce702f707f34410)] -> id: btnCash]
+Session ID: 4da92db9a8ada3494ce702f707f34410 
+2022-10-26 21:19:51,035 ERROR [Log] Payments 1 = FAILED with cause : element not interactable
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [91f86a560557905c84f8674f5c60f46e, clickElement {id=a8aa5c31-964e-4c25-9f6b-2297e63b8eda}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (91f86a560557905c84f8674f5c60f46e)] -> css selector: .flexItem[data-ng-click="playKeySound(); addCodeValue('8');"]]
+Session ID: 91f86a560557905c84f8674f5c60f46e 
+2022-10-26 21:19:56,647 ERROR [Log] Payments 2 = FAILED with cause : The keyboard screen did not open to enter the price of the product.
+ ==> expected: <block> but was: <none> 
+2022-10-26 21:20:01,472 ERROR [Log] Payments 4 = FAILED with cause : The yes/no screen to confirm age did not pop up.
+ ==> expected: <block> but was: <none> 
+2022-10-26 21:20:03,241 ERROR [Log] Payments 5 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [91f86a560557905c84f8674f5c60f46e, clickElement {id=30ed3f1b-3bec-46bd-adc8-6fb04fd577aa}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (91f86a560557905c84f8674f5c60f46e)] -> id: btnCash]
+Session ID: 91f86a560557905c84f8674f5c60f46e 
+2022-10-26 21:20:05,003 ERROR [Log] Payments 6 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [91f86a560557905c84f8674f5c60f46e, clickElement {id=30ed3f1b-3bec-46bd-adc8-6fb04fd577aa}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (91f86a560557905c84f8674f5c60f46e)] -> id: btnCash]
+Session ID: 91f86a560557905c84f8674f5c60f46e 
+2022-10-26 21:20:06,823 ERROR [Log] Payments 7 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [91f86a560557905c84f8674f5c60f46e, clickElement {id=30ed3f1b-3bec-46bd-adc8-6fb04fd577aa}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (91f86a560557905c84f8674f5c60f46e)] -> id: btnCash]
+Session ID: 91f86a560557905c84f8674f5c60f46e 
+2022-10-26 21:20:08,898 ERROR [Log] Payments 8 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [91f86a560557905c84f8674f5c60f46e, clickElement {id=30ed3f1b-3bec-46bd-adc8-6fb04fd577aa}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49807/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (91f86a560557905c84f8674f5c60f46e)] -> id: btnCash]
+Session ID: 91f86a560557905c84f8674f5c60f46e 
+2022-10-26 21:21:09,375 ERROR [Log] Payments 1 = FAILED with cause : element not interactable
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebc05bc0848f7244bd43598e0f0f1629, clickElement {id=42ca50f5-4371-483d-a763-f5bb7b91df75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49833/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (ebc05bc0848f7244bd43598e0f0f1629)] -> css selector: .flexItem[data-ng-click="playKeySound(); addCodeValue('8');"]]
+Session ID: ebc05bc0848f7244bd43598e0f0f1629 
+2022-10-26 21:21:11,492 ERROR [Log] Payments 2 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebc05bc0848f7244bd43598e0f0f1629, clickElement {id=002b2369-4050-43f2-b303-cf28048a3ed0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49833/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (ebc05bc0848f7244bd43598e0f0f1629)] -> id: btnCash]
+Session ID: ebc05bc0848f7244bd43598e0f0f1629 
+2022-10-26 21:21:13,572 ERROR [Log] Payments 4 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebc05bc0848f7244bd43598e0f0f1629, clickElement {id=002b2369-4050-43f2-b303-cf28048a3ed0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49833/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (ebc05bc0848f7244bd43598e0f0f1629)] -> id: btnCash]
+Session ID: ebc05bc0848f7244bd43598e0f0f1629 
+2022-10-26 21:21:15,352 ERROR [Log] Payments 5 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebc05bc0848f7244bd43598e0f0f1629, clickElement {id=002b2369-4050-43f2-b303-cf28048a3ed0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49833/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (ebc05bc0848f7244bd43598e0f0f1629)] -> id: btnCash]
+Session ID: ebc05bc0848f7244bd43598e0f0f1629 
+2022-10-26 21:21:17,119 ERROR [Log] Payments 6 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebc05bc0848f7244bd43598e0f0f1629, clickElement {id=002b2369-4050-43f2-b303-cf28048a3ed0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49833/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (ebc05bc0848f7244bd43598e0f0f1629)] -> id: btnCash]
+Session ID: ebc05bc0848f7244bd43598e0f0f1629 
+2022-10-26 21:21:18,951 ERROR [Log] Payments 7 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebc05bc0848f7244bd43598e0f0f1629, clickElement {id=002b2369-4050-43f2-b303-cf28048a3ed0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49833/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (ebc05bc0848f7244bd43598e0f0f1629)] -> id: btnCash]
+Session ID: ebc05bc0848f7244bd43598e0f0f1629 
+2022-10-26 21:21:21,011 ERROR [Log] Payments 8 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 593). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebc05bc0848f7244bd43598e0f0f1629, clickElement {id=002b2369-4050-43f2-b303-cf28048a3ed0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49833/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (ebc05bc0848f7244bd43598e0f0f1629)] -> id: btnCash]
+Session ID: ebc05bc0848f7244bd43598e0f0f1629 
+2022-10-26 21:22:52,939 INFO  [Log] Scenario 1 = PASSED 
+2022-10-26 21:24:32,446 ERROR [Log] Scenario 2 = FAILED with cause : The discount price in the basket does not match. ==> expected: <£10.00> but was: <£3.00> 
+2022-10-26 21:26:51,707 ERROR [Log] Scenario 2 = FAILED with cause : The keyboard screen did not open to enter the price of the product. ==> expected: <block> but was: <none> 
+2022-10-26 21:28:58,057 ERROR [Log] Scenario 2 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <6> but was: <5> 
+2022-10-26 21:31:29,156 INFO  [Log] Scenario 2 = PASSED 
+2022-10-26 21:34:56,500 INFO  [Log] Scenario 2 = PASSED 
+2022-10-26 21:36:17,882 ERROR [Log] Scenario 4 = FAILED with cause : The keyboard screen did not open to enter the price of the product. ==> expected: <block> but was: <none> 
+2022-10-26 21:38:09,568 ERROR [Log] Scenario 4 = FAILED with cause : The discount price in the basket does not match. ==> expected: <£0.00> but was: <£1.50> 
+2022-10-26 21:39:36,228 ERROR [Log] Scenario 4 = FAILED with cause : The discount price in the basket does not match. ==> expected: <£0.00> but was: <£1.50> 
+2022-10-26 21:41:01,559 ERROR [Log] Scenario 4 = FAILED with cause : The discount price in the basket does not match. ==> expected: <£0.00> but was: <£1.50> 
+2022-10-26 21:47:22,137 ERROR [Log] Scenario 4 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <3> but was: <8> 
+2022-10-26 21:49:20,663 INFO  [Log] Scenario 4 = PASSED 
+2022-10-26 21:56:04,244 ERROR [Log] Scenario 5 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [37783601257d06b3d6d1c605bacb0362, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50388/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37783601257d06b3d6d1c605bacb0362 
+2022-10-26 21:57:03,039 ERROR [Log] Scenario 5 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [654e845b6432be67d59b3d7e43c4eda3, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50412}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50412/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 654e845b6432be67d59b3d7e43c4eda3 
+2022-10-26 21:57:53,118 ERROR [Log] Scenario 5 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0e918ea17c38236cc85f07d07849b47, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50438/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a0e918ea17c38236cc85f07d07849b47 
+2022-10-26 21:59:25,893 ERROR [Log] Scenario 5 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".data[data-index="0"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e36034c9ae11ba0bd3c981fa8b30370, findElement {using=css selector, value=.data[data-index="0"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50462}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50462/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e36034c9ae11ba0bd3c981fa8b30370 
+2022-10-26 22:01:59,438 ERROR [Log] Scenario 5 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".data[data-index="0"]"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62bb3264632cad7343e2313f25e88ee3, findElement {using=css selector, value=.data[data-index="0"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50504}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50504/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62bb3264632cad7343e2313f25e88ee3 

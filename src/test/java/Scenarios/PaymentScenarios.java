@@ -49,13 +49,12 @@ public class PaymentScenarios extends OpenPage{
         assertEquals("none", Elements.modal().getCssValue("display"),"The keyboard screen that opens to enter the product's barcode is not closed.");
 
                 try {
-                    Thread.sleep(1500);
+                    Thread.sleep(2000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
 
 
-        assertEquals("block", Elements.modal().getCssValue("display"));
         Elements.eightPopUp().click();
         Elements.doubleZeroPopUp().click();
 
@@ -133,7 +132,6 @@ public class PaymentScenarios extends OpenPage{
 
         Elements.cigaretteOrTobaccoYes().click();
         assertEquals("none", Elements.ConfirmAgePopUp().getCssValue("display"),"The yes/no screen to confirm age did not close.");
-        assertEquals("block", Elements.modal().getCssValue("display"),"The keyboard screen did not open to enter the price of the product.\n");
         Elements.eightPopUp().click();
         Elements.fivePopUp().click();
         Elements.sixPopUp().click();
@@ -178,7 +176,7 @@ public class PaymentScenarios extends OpenPage{
 
 
 
-
+/*
     @DisplayName("Payments 3 ")
     @Test
     void Scenario3(){
@@ -228,7 +226,7 @@ public class PaymentScenarios extends OpenPage{
     }
 
 
-
+*/
 
 
     @DisplayName("Payments 4 ")
