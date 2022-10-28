@@ -21,7 +21,7 @@ public class SalesScenarios12 extends OpenPage {
         Elements.homeMode().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(6000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -85,7 +85,8 @@ public class SalesScenarios12 extends OpenPage {
         Elements.onePopUp().click();
         Elements.onePopUp().click();
         Elements.onePopUp().click();
-        assertEquals("1111", Elements.keypadModalClass().getAttribute("value"),"The numbers entered on the keyboard screen that opens do not match.\n");
+        Elements.onePopUp().click();
+        assertEquals("11111", Elements.keypadModalClass().getAttribute("value"),"The numbers entered on the keyboard screen that opens do not match.\n");
 
         try {
             Thread.sleep(1000);
@@ -117,7 +118,8 @@ public class SalesScenarios12 extends OpenPage {
         Elements.onePopUp().click();
         Elements.onePopUp().click();
         Elements.onePopUp().click();
-        assertEquals("1111", Elements.keypadModalClass().getAttribute("value"),"The numbers entered on the keyboard screen that opens do not match.\n");
+        Elements.onePopUp().click();
+        assertEquals("11111", Elements.keypadModalClass().getAttribute("value"),"The numbers entered on the keyboard screen that opens do not match.\n");
 
         try {
             Thread.sleep(1000);

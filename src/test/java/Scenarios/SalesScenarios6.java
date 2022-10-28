@@ -22,7 +22,7 @@ public class SalesScenarios6 extends OpenPage {
         Elements.homeMode().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -30,7 +30,7 @@ public class SalesScenarios6 extends OpenPage {
         Elements.management().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -38,7 +38,7 @@ public class SalesScenarios6 extends OpenPage {
         Elements.mixAndMatch().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -46,15 +46,15 @@ public class SalesScenarios6 extends OpenPage {
         Elements.create().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthcurrentRecordName().sendKeys("SPINACH 5 for £8.50");
+        Elements.MixandMacthcurrentRecordName().sendKeys("SPINACH 5 for £8.00");
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -62,15 +62,15 @@ public class SalesScenarios6 extends OpenPage {
         Elements.MixandMatchquantity().sendKeys("5");
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthcurrentRewardAmount().sendKeys("£8.50");
+        Elements.MixandMacthcurrentRewardAmount().sendKeys("£8.00");
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -78,7 +78,7 @@ public class SalesScenarios6 extends OpenPage {
         Elements.MixandMacthSubmenuProduct().sendKeys("SPINACH");
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -86,7 +86,7 @@ public class SalesScenarios6 extends OpenPage {
         ElementsJS.pointVegMenuSPINACH();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -102,7 +102,7 @@ public class SalesScenarios6 extends OpenPage {
         Elements.homeModeBack().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -131,7 +131,7 @@ public class SalesScenarios6 extends OpenPage {
 
         assertEquals("1", Elements.basketItemCountTD().getAttribute("innerHTML"),"The number of items entered in the basket does not match.");
         assertEquals("£0.00", Elements.basketDiscountTD().getAttribute("innerHTML"),"The discount price in the basket does not match.");
-        assertEquals("£2.10", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
+        assertEquals("£2.00", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
 
         try {
             Thread.sleep(1000);
@@ -172,7 +172,7 @@ public class SalesScenarios6 extends OpenPage {
 
         assertEquals("5", Elements.basketItemCountTD().getAttribute("innerHTML"),"The number of items entered in the basket does not match.");
         assertEquals("£2.00", Elements.basketDiscountTD().getAttribute("innerHTML"),"The discount price in the basket does not match.");
-        assertEquals("£8.50", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
+        assertEquals("£8.00", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
 
         try {
             Thread.sleep(500);
@@ -256,7 +256,7 @@ public class SalesScenarios6 extends OpenPage {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthcurrentRecordName().sendKeys("SPINACH 3 for £5.30");
+        Elements.MixandMacthcurrentRecordName().sendKeys("SPINACH 3 for £5.00");
 
         try {
             Thread.sleep(1000);
@@ -272,7 +272,7 @@ public class SalesScenarios6 extends OpenPage {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthcurrentRewardAmount().sendKeys("£5.30");
+        Elements.MixandMacthcurrentRewardAmount().sendKeys("£5.00");
 
         try {
             Thread.sleep(1000);
@@ -341,7 +341,7 @@ public class SalesScenarios6 extends OpenPage {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthcurrentRecordName().sendKeys("SPINACH 2 for £2.10");
+        Elements.MixandMacthcurrentRecordName().sendKeys("SPINACH 2 for £2.00");
 
         try {
             Thread.sleep(1000);
@@ -357,7 +357,7 @@ public class SalesScenarios6 extends OpenPage {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthcurrentRewardAmount().sendKeys("£2.10");
+        Elements.MixandMacthcurrentRewardAmount().sendKeys("£2.00");
 
         try {
             Thread.sleep(1000);
@@ -423,7 +423,7 @@ public class SalesScenarios6 extends OpenPage {
 
         assertEquals("1", Elements.basketItemCountTD().getAttribute("innerHTML"),"The number of items entered in the basket does not match.");
         assertEquals("£0.00", Elements.basketDiscountTD().getAttribute("innerHTML"),"The discount price in the basket does not match.");
-        assertEquals("£2.10", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
+        assertEquals("£2.00", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
 
         try {
             Thread.sleep(1000);
@@ -455,8 +455,8 @@ public class SalesScenarios6 extends OpenPage {
         }
 
         assertEquals("2", Elements.basketItemCountTD().getAttribute("innerHTML"),"The number of items entered in the basket does not match.");
-        assertEquals("£2.10", Elements.basketDiscountTD().getAttribute("innerHTML"),"The discount price in the basket does not match.");
-        assertEquals("£2.10", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
+        assertEquals("£2.00", Elements.basketDiscountTD().getAttribute("innerHTML"),"The discount price in the basket does not match.");
+        assertEquals("£2.00", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
 
 
         try {

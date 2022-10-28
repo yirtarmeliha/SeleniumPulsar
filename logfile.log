@@ -772,3 +772,80 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [62bb3264632cad7343e2313f25e88ee3, findElement {using=css selector, value=.data[data-index="0"]}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50504}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50504/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
 Session ID: 62bb3264632cad7343e2313f25e88ee3 
+2022-10-28 07:13:21,082 ERROR [Log] Scenario 5 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".data[data-index="0"]"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fba513028b9923a2544220e8dae57e2, findElement {using=css selector, value=.data[data-index="0"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:51513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51513/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fba513028b9923a2544220e8dae57e2 
+2022-10-28 07:17:28,787 ERROR [Log] Scenario 5 = FAILED with cause : The total price in the basket does not match. ==> expected: <£15.00> but was: <£8.00> 
+2022-10-28 07:20:29,269 INFO  [Log] Scenario 5 = PASSED 
+2022-10-28 07:22:02,775 ERROR [Log] Scenario 3 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <1> but was: <0> 
+2022-10-28 07:24:11,770 ERROR [Log] Scenario 3 = FAILED with cause : The total price in the basket does not match. ==> expected: <£4.00> but was: <£5.00> 
+2022-10-28 07:25:52,399 INFO  [Log] Scenario 3 = PASSED 
+2022-10-28 07:26:50,771 ERROR [Log] Scenario 6 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [627e6ea817001baf22a8db6428e69fc5, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:51742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51742/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 627e6ea817001baf22a8db6428e69fc5 
+2022-10-28 07:32:02,811 INFO  [Log] Scenario 6 = PASSED 
+2022-10-28 07:35:33,543 ERROR [Log] Scenario 6 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78aa5b36db831575abcb642b496f1223, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:51864}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51864/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 78aa5b36db831575abcb642b496f1223 
+2022-10-28 07:37:31,445 INFO  [Log] Scenario 6 = PASSED 
+2022-10-28 07:38:45,350 ERROR [Log] Scenario 7 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <7> but was: <6> 
+2022-10-28 07:40:03,931 ERROR [Log] Scenario 7 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <8> but was: <7> 
+2022-10-28 07:42:14,028 ERROR [Log] Scenario 7 = FAILED with cause : The keyboard screen did not open to enter the price of the product. ==> expected: <block> but was: <none> 
+2022-10-28 07:46:36,864 ERROR [Log] Scenario 8 = FAILED with cause : The keyboard screen did not open to enter the weight of the product. ==> expected: <block> but was: <none> 
+2022-10-28 07:48:44,984 ERROR [Log] Scenario 8 = FAILED with cause : The keyboard screen did not open to enter the price of the product. ==> expected: <block> but was: <none> 
+2022-10-28 07:51:15,815 INFO  [Log] Scenario 8 = PASSED 
+2022-10-28 07:54:29,246 INFO  [Log] Scenario 9 = PASSED 
+2022-10-28 07:57:01,630 ERROR [Log] Scenario 11 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <2> but was: <1> 
+2022-10-28 07:58:49,674 ERROR [Log] Scenario 11 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".ng-isolate-scope tbody tr:nth-child(3)"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cfcdc6abe322df04d2ab0fe2c0605b51, findElement {using=css selector, value=.ng-isolate-scope tbody tr:nth-child(3)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:52334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52334/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cfcdc6abe322df04d2ab0fe2c0605b51 
+2022-10-28 08:00:07,812 ERROR [Log] Scenario 11 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <125> but was: <123> 
+2022-10-28 08:01:48,778 ERROR [Log] Scenario 11 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".col-xs-6[translate="ENTER_CODE_LB"]"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ec83b90f979f3369d84994d9f30f4d4, findElement {using=css selector, value=.col-xs-6[translate="ENTER_CODE_LB"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:52408}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52408/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ec83b90f979f3369d84994d9f30f4d4 
+2022-10-28 08:03:44,051 INFO  [Log] Scenario 11 = PASSED 
+2022-10-28 08:06:23,721 ERROR [Log] Scenario 12 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <1> but was: <0> 
+2022-10-28 08:09:17,234 INFO  [Log] Scenario 12 = PASSED 
+2022-10-28 08:11:10,756 ERROR [Log] Scenario 13 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <3> but was: <0> 
+2022-10-28 08:12:44,638 INFO  [Log] Scenario 13 = PASSED 
+2022-10-28 08:16:30,600 ERROR [Log] Scenario 15 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a9eafd4de426ffaeef2abf3cd466929d, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:52642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52642/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a9eafd4de426ffaeef2abf3cd466929d 
+2022-10-28 08:17:52,546 INFO  [Log] Scenario 15 = PASSED 
+2022-10-28 08:19:26,498 INFO  [Log] Scenario 7 = PASSED 

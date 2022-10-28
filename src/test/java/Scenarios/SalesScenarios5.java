@@ -52,7 +52,7 @@ public class SalesScenarios5 extends OpenPage {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthcurrentRecordName().sendKeys("TOMATO BOX 2 for £25.00");
+        Elements.MixandMacthcurrentRecordName().sendKeys("TOMATO BOX 2 for £10.00");
 
         try {
             Thread.sleep(2000);
@@ -68,7 +68,7 @@ public class SalesScenarios5 extends OpenPage {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthcurrentRewardAmount().sendKeys("£25.00");
+        Elements.MixandMacthcurrentRewardAmount().sendKeys("£10.00");
 
         try {
             Thread.sleep(2000);
@@ -138,7 +138,7 @@ public class SalesScenarios5 extends OpenPage {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthcurrentRecordName().sendKeys("TOMATO BOX 2 for £25.00");
+        Elements.MixandMacthcurrentRecordName().sendKeys("TOMATO BOX 2 for £10.00");
 
         try {
             Thread.sleep(1000);
@@ -154,7 +154,7 @@ public class SalesScenarios5 extends OpenPage {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthcurrentRewardAmount().sendKeys("£25.00");
+        Elements.MixandMacthcurrentRewardAmount().sendKeys("£10.00");
 
         try {
             Thread.sleep(1000);
@@ -219,7 +219,7 @@ public class SalesScenarios5 extends OpenPage {
 
         assertEquals("1", Elements.basketItemCountTD().getAttribute("innerHTML"),"The number of items entered in the basket does not match.");
         assertEquals("£0.00", Elements.basketDiscountTD().getAttribute("innerHTML"),"The discount price in the basket does not match.");
-        assertEquals("£15.00", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
+        assertEquals("£8.00", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
 
         Elements.enterCode().click();
         assertEquals("block", Elements.modal().getCssValue("display"),"The keyboard screen did not open to enter the product's barcode.");
@@ -244,8 +244,8 @@ public class SalesScenarios5 extends OpenPage {
         }
 
         assertEquals("2", Elements.basketItemCountTD().getAttribute("innerHTML"),"The number of items entered in the basket does not match.");
-        assertEquals("£5.00", Elements.basketDiscountTD().getAttribute("innerHTML"),"The discount price in the basket does not match.");
-        assertEquals("£25.00", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
+        assertEquals("£6.00", Elements.basketDiscountTD().getAttribute("innerHTML"),"The discount price in the basket does not match.");
+        assertEquals("£10.00", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
 
 
         Elements.cardScreen().click();
@@ -333,7 +333,7 @@ public class SalesScenarios5 extends OpenPage {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthcurrentRecordName().sendKeys("TOMATO BOX 2 for £22.00");
+        Elements.MixandMacthcurrentRecordName().sendKeys("TOMATO BOX 2 for £12.00");
 
         try {
             Thread.sleep(1000);
@@ -349,7 +349,7 @@ public class SalesScenarios5 extends OpenPage {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthcurrentRewardAmount().sendKeys("£22.00");
+        Elements.MixandMacthcurrentRewardAmount().sendKeys("£12.00");
 
         try {
             Thread.sleep(1000);
@@ -418,7 +418,7 @@ public class SalesScenarios5 extends OpenPage {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthcurrentRecordName().sendKeys("TOMATO BOX 3 for £30.00");
+        Elements.MixandMacthcurrentRecordName().sendKeys("TOMATO BOX 3 for £20.00");
 
         try {
             Thread.sleep(1000);
@@ -434,7 +434,7 @@ public class SalesScenarios5 extends OpenPage {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthcurrentRewardAmount().sendKeys("£30.00");
+        Elements.MixandMacthcurrentRewardAmount().sendKeys("£20.00");
 
         try {
             Thread.sleep(1000);
@@ -536,8 +536,8 @@ public class SalesScenarios5 extends OpenPage {
 
 
         assertEquals("3", Elements.basketItemCountTD().getAttribute("innerHTML"),"The number of items entered in the basket does not match.");
-        assertEquals("£15.00", Elements.basketDiscountTD().getAttribute("innerHTML"),"The discount price in the basket does not match.");
-        assertEquals("£30.00", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
+        assertEquals("£4.00", Elements.basketDiscountTD().getAttribute("innerHTML"),"The discount price in the basket does not match.");
+        assertEquals("£20.00", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
 
         try {
             Thread.sleep(1000);
